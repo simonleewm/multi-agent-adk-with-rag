@@ -29,7 +29,7 @@ In the ADK framework, we use a Parent-Child hierarchy. This ensures "Single Resp
 
 
     ```bash
-    git clone https://github.com/simonleewm/multi-agent-with-rag.git
+    git clone https://github.com/simonleewm/multi-agent-adk-with-rag.git
     cd multi-agent-adk-with-rag 
     ```
 
@@ -155,5 +155,6 @@ adk deploy agent_engine nutrition_agent --display_name "Nutrition Coach" --stagi
 ```
 
 Note: During the deployment process, you will be prompted to grant the `Vertex AI User` and `Discovery Engine User` IAM roles to the `Vertex AI Reasoning Engine Service Agent`. After the deployment is complete, the agent's resource name will be printed to the console. 
+
 
 
